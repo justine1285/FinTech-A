@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --fundifyWhite: #F4F1EB;
+    --fundifyGrey: #e6e6e6;
+    --fundifyBlack: #141414;
+    --fundifyGold: #CCAF7E;
+    --lightDark: #1A1A1A;
+    --green: #53D258;
+    --transparentWhite: #f4f1eb77;
+    --fontFamilysmall: "inter", sans-serif;
+    --fontFamilyBig: Georgia, 'Times New Roman', Times, serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+main {
+    font-family: var(--fontFamilysmall);
+    background-color: var(--fundifyBlack);
+    padding: 20px 40px;
+    color: var(--fundifyWhite);
+}
+
+.section1 {
+    display: flex;
+}
+
+.section1 p {
+    margin: auto;
+    font-size: 25px;
+}
+
+.section2 {
+    margin-top: 50px;
+    margin-bottom: 400px;
+}
+
+.section2 div {
+    margin-top: 5px;
+}
+
+.section2 img {
+    background-color: var(--fundifyBlack);
+    padding: 6px;
+    border-radius: 4px;
+    vertical-align: middle;
+}
+
+.section2 button {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: var(--lightDark);
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.section2 a {
+    font-size: 17px;
+    margin: auto;
+    text-decoration: none;
+    color: var(--fundifyWhite);
+}
+
+.section2 p {
+    margin-top: 20px;
+    font-size: 12px;
+    width: 300px;
+    color: var(--transparentWhite);
+}
+
+.section2 span {
+    color: var(--fundifyWhite);
+    font-weight: 500;
+}
+
+.home-icons {
+	background-color: var(--fundifyBlack);
+	padding-top: 30px;
+	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+	padding-bottom: 20px;
+}
+
+.home-icons a {
+	align-self: center;
+}
+
+.home-icons p {
+	font-size: 14px;
+	color: var(--fundifyWhite);
+}
+
+@media (min-width: 320px) {
+    .section1 p {
+        margin-left: 30px;
+    }
+}
+
+@media (min-width:600px) {
+    main {
+        width: 50%;
+        margin: auto;
+    }
+
+    .section1 p {
+        margin-left: 30px;
+    }
+}
+
+@media (min-width: 1000px) {
+    main {
+        width: 35%;
+        margin: auto;
+    }
+}

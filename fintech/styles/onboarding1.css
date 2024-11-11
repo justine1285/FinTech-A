@@ -1,0 +1,104 @@
+body {
+    background-color: var(--fundifyBlack);
+    text-align: center;
+    padding: 40px;
+}
+
+.icon {
+    width: 3%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.gold-lines div {
+    margin: 20px 0 15px 0;
+    display: inline-block;
+    width: 25px;
+    height: 3px;
+    margin-right: 3px;
+    background-color: var(--fundifyGold);
+    border-radius: 10px;
+}
+
+.gold-lines .black {
+    background-color: var(--lightDark);
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.iphone {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 85%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust to ensure the center alignment */
+    text-align: center;
+    width: 100%;
+    background-color: var(--fundifyBlack);
+    padding-top: 50px;
+    padding-bottom: 150px;
+    box-shadow: 0 0 25px 35px var(--fundifyBlack);
+}
+
+h2 {
+    font-size: 32px;
+    font-family: var(--fontFamilyBig);
+    font-weight: 400;
+    width: 66%;
+    color: var(--fundifyWhite);
+    margin: auto;
+}
+
+p {
+    padding-top: 20px;
+    width: 68%;
+    font-family: var(--fontFamilysmall);
+    font-size: 16px;
+    font-weight: 300;
+    margin: auto;
+    color: var(--fundifyWhite);
+}
+
+a {
+    text-decoration: none;
+    color: var(--fundifyBlack);
+}
+
+.white-btn {
+    margin-top: 35px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-family: var(--fontFamilysmall);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.black-btn {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-family: var(--fontFamilysmall);
+    font-size: 16px;
+    font-weight: 300;
+    background-color: transparent;
+}
+
+
+.black-btn a {
+    color: var(--fundifyWhite);
+}
+

@@ -1,0 +1,87 @@
+body {
+    background-color: var(--fundifyBlack);
+    text-align: center;
+    padding: 40px;
+}
+
+.icon {
+    width: 5%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.gold {
+    width: 120px;
+    height: 3px;
+    background-color: var(--fundifyGold);
+    margin: auto;
+    display: block;
+}
+
+h2 {
+    font-size: 32px;
+    font-family: var(--fontFamilyBig);
+    font-weight: 400;
+    width: 66%;
+    color: var(--fundifyWhite);
+    margin: auto;
+}
+
+p {
+    padding-top: 20px;
+    width: 68%;
+    font-family: var(--fontFamilysmall);
+    font-size: 16px;
+    font-weight: 300;
+    margin: auto;
+    color: var(--fundifyWhite);
+}
+
+.input {
+    margin-top: 20px;
+    background-color: var(--lightDark);
+    border: none;
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 300px;
+}
+
+.input::placeholder {
+    font-family: var(--fontFamilysmall);
+    font-size: 16px;
+}
+
+.confirm-btn {
+    margin-top: 60px;
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+    font-family: var(--fontFamilysmall);
+    font-size: 16px;
+    font-weight: 600;
+    background-color: var(--fundifyWhite);
+}
+
+.confirm-btn a {
+    text-decoration: none;
+    color: var(--fundifyBlack);
+}
+
+.skip-btn {
+    margin-top: 10px;
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+    font-family: var(--fontFamilysmall);
+    font-size: 16px;
+    font-weight: 400;
+    background-color: transparent;
+}
+
+.skip-btn a {
+    text-decoration: none;
+    color: var(--fundifyWhite);
+}
