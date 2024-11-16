@@ -1,4 +1,4 @@
-# Fintecch Mobile App
+# Fintech Mobile App
 
 ## Overview
 
