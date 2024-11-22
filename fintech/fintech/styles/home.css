@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --fundifyWhite: #F4F1EB;
+    --fundifyGrey: #e6e6e6;
+    --fundifyBlack: #141414;
+    --fundifyGold: #CCAF7E;
+    --lightDark: #1A1A1A;
+    --green: #53D258;
+    --transparentWhite: #f4f1eb77;
+    --fontFamilysmall: "inter", sans-serif;
+    --fontFamilyBig: Georgia, 'Times New Roman', Times, serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: var(--fontFamilysmall);
+	background-color: var(--lightDark);
+}
+
+main {
+    width: 90%;
+}
+
+
+.white-section {
+	background-color: var(--fundifyWhite);
+	display: flex;
+	padding: 40px 40px 70px 40px;
+	align-items: center;
+	gap: 20px;
+}
+
+.white-section div {
+	display: flex;
+}
+
+.profile {
+	margin-left: 40px;
+	width: 50px;
+	height: auto;
+}
+
+.white-section div figure {
+	background-color: var(--fundifyGrey);
+	align-self: center;
+	padding: 10px 15px 10px 15px;
+	border-radius: 30px;
+}
+
+.white-section figure {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.arrow {
+	margin-right: 8px;
+	width: 15px; 
+	vertical-align: top;
+}
+
+.white-section p {
+	vertical-align: bottom;
+	align-self: center;
+	font-size: 17px;
+}
+
+.white-section span {
+	font-size: 10px;
+	vertical-align: top;
+}
+
+.bell {
+	width: 13%;
+	background-color: var(--fundifyGrey);
+	padding: 10px;
+	border-radius: 50%;
+	position: relative;
+}
+
+.line {
+	width: 20px;
+	height: 4px;
+	background-color: var(--fundifyGrey);
+	align-self: center;
+}
+
+.gold-balls {
+	margin: auto 15px auto;
+	display: inline-block;
+	padding: 0px 5px;
+	width: 5px;
+	height: 10px;
+	background-color: var(--fundifyGold);
+	border-radius: 50px;
+	transform: translate(-27px, 15px);
+}
+
+.black-section {
+	background-color: var(--fundifyBlack);
+	text-align: center;
+}
+
+em {
+	font-style: none;
+	font-size: 12px;
+	padding-right: 2px;
+}
+
+.balancePic {
+	transform: translateY(-40px);
+	width: 70%;
+}
+
+.transactions {
+	color: var(--fundifyWhite);
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-left: 25px;
+}
+
+.transactions p {
+	font-size: 25px;
+	width: 100%;
+}
+
+.transactions span {
+	width: 100%;
+	font-size: 20px;
+}
+
+.shater-profile {
+	display: flex;
+	justify-content: space-around;
+	color: var(--fundifyWhite);
+	margin-top: 25px;
+	padding-bottom: 13px;
+}
+
+.shater {
+	display: flex;
+	align-items: center;
+}
+
+.shater span {
+	font-size: 10px;
+	margin-left: -24px;
+	color: var(--transparentWhite);
+}
+
+.shater p {
+	font-size: 18px;
+	margin-bottom: 0;
+	width: 100%;
+}
+
+.shater img {
+	width: 10px;
+	margin-right: 10px;
+}
+
+.see-all p {
+	font-size: 18px;
+	margin-bottom: 0;
+}
+
+.see-all span {
+	font-size: 10px;
+	color: var(--transparentWhite);
+}
+
+hr {
+	width: 66%;
+	margin: auto;
+	border: 1px solid var(--lightDark);
+}
+
+.home-icons {
+	background-color: var(--fundifyBlack);
+	padding-top: 30px;
+	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+	padding-bottom: 20px;
+}
+
+.home-icons a {
+	align-self: center;
+}
+
+.home-icons p {
+	font-size: 14px;
+	color: var(--fundifyWhite);
+}
+
+@media (min-width: 320px) {
+	main {
+		width: 100%;
+	}
+
+	.white-section {
+		width: 100%;
+		padding: 20px 10px 50px 10px;
+	}
+
+	.white-section p {
+		width: 100%;
+		font-size: 6px;
+	}
+
+	.bell {
+		width: 15%;
+		padding: 5px;
+	}
+}
+
+@media (min-width: 500px) {
+	main {
+		width: 70%;
+		margin: auto;
+	}
+
+	.white-section {
+		width: 100%;
+		padding-left: 50px;
+	}
+
+	.white-section p {
+		width: 100%;
+		font-size: 15px;
+	}
+}
+
+@media (min-width: 1000px) {
+	main {
+		width: 50%;
+		margin: auto;
+	}
+
+	.white-section {
+		width: 100%;
+		padding-left: 0;
+	}
+
+	.profile {
+		margin-left: 100px;
+	}
+
+	.white-section p {
+		width: 100%;
+		margin-top: 10px;
+		
+	}
+
+	.bell {
+		width: 20%;
+		padding: 13px;
+	}
+
+	.shater div {
+		width: 100%;
+	}
+
+}
+
+@media (min-width: 1300px) {
+	main {
+		width: 30%;
+	}
+
+	.white-section {
+		width: 100%;
+		padding: 20px 10px 50px 10px;
+	}
+
+	.white-section p {
+		width: 100%;
+		font-size: 12px;
+		margin-top: 10px;
+	}
+}

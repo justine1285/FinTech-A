@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/success.css">
+    <title>Money sent Successfully</title>
+</head>
+<body>
+    <main>
+        <section>
+            <p>Money Sent!</p>
+            <span class="close-page">Close</span>
+        </section>
+
+        <p class="center">+ <img src="assets/onboarding 1/Vector.svg" alt=""> 20</p>
+
+        <div class="text">
+            <p>Receiver</p>
+            <span>Shater Tsavsar</span>
+        </div>
+        
+        <div class="text">
+            <p>Amount</p>
+            <span>₣ 15,000</span>
+        </div>
+
+        <div class="text">
+            <p>Comment</p>
+            <span>Test</span>
+        </div>
+
+        <div class="text">
+            <p>Date</p>
+            <span>03/02/2024</span>
+        </div>
+
+        <div class="text">
+            <p>Transaction Code:</p>
+            <span>2PRyJRH18JIi1NNuwwb mZVJ <img src="assets/IonCopyOutline 1.svg" alt=""></span>
+        </div>
+
+        <button><a href="">Print Receipt</a></button>
+
+        <figure class="home-icons">
+            <a href="rewards.html"><img src="assets/home/Frame 586916.svg" alt=""></a>
+            <a href="transfer.html" target="_self"><img src="assets/home/Group.svg" alt=""></a>
+            <div>
+                <img src="assets/home/006-home-button 1.svg" alt="">
+                <p>Home</p>
+            </div>
+            <img src="assets/home/LetsIconsCreditCardLight 1.svg" alt="">
+            <img src="assets/home/Vector.svg" alt="">
+        </figure>
+    </main>
+
+    <script>
+        const closePage = document.querySelector('.close-page');
+
+        closePage.addEventListener('click', function () {
+            if (confirm("Are you sure you want to close this page?")) {
+                window.close();
+            }
+        })
+    </script>
+</body>
+</html>

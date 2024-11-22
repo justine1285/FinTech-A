@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --fundifyWhite: #F4F1EB;
+    --fundifyGrey: #e6e6e6;
+    --fundifyBlack: #141414;
+    --fundifyGold: #CCAF7E;
+    --lightDark: #1A1A1A;
+    --green: #53D258;
+    --transparentWhite: #f4f1eb77;
+    --fontFamilysmall: "inter", sans-serif;
+    --fontFamilyBig: Georgia, 'Times New Roman', Times, serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    background-color: var(--lightDark);
+}
+
+main {
+    font-family: var(--fontFamilysmall);
+    background-color: var(--fundifyBlack);
+    padding: 20px 40px;
+    color: var(--fundifyWhite);
+    font-size: 16px;
+}
+
+.section1 {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.section1 p {
+    margin: auto;
+    font-size: 22px;
+}
+
+.white {
+    text-align: center;
+    width: 40%;
+    color: var(--fundifyBlack);
+    background-color: var(--fundifyWhite);
+    margin: auto;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.white span {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.wallet {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.wallet p {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.wallet span {
+    font-size: 13px;
+    font-weight: 300;
+    padding-right: 2px;
+}
+
+.black {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 18px;
+    background-color: var(--lightDark);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.black p span {
+    font-size: 12px;
+}
+
+.imagetext {
+    font-size: 16px;
+}
+
+.imagetext img {
+    padding-left: 3px;
+}
+
+.center {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.center span {
+    font-size: 12px;
+}
+
+input {
+    margin-top: 50px;
+    width: 100%;
+    background-color: var(--lightDark);
+    border: none;
+    border-radius: 8px;
+    padding: 15px 10px 15px 15px;
+    color: var(--transparentWhite);
+}
+
+button {
+    margin-top: 400px;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    transition: backgroud-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--fundifyGold);
+}
+
+button a:hover {
+    color: var(--fundifyWhite);
+}
+
+button a {
+    color: var(--fundifyBlack);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.home-icons {
+	background-color: var(--fundifyBlack);
+	padding-top: 30px;
+	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+	padding-bottom: 20px;
+}
+
+.home-icons a {
+	align-self: center;
+}
+
+.home-icons p {
+	font-size: 14px;
+	color: var(--fundifyWhite);
+}
+
+@media (min-width: 320px) {
+    .section1 p {
+        margin: auto;
+    }
+
+    .white {
+        width: 100%;
+    }
+}
+
+@media (min-width: 450px) {
+    main {
+        width: 70%;
+        margin: auto;
+    }
+
+    .white {
+        width: 60%;
+    }
+
+    .section1 p {
+        margin: auto;
+    }
+}
+
+@media (min-width:600px) {
+    main {
+        width: 50%;
+        margin: auto;
+    }
+
+    .section1 p {
+        margin: auto;
+    }
+
+    .white {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1030px) {
+    main {
+        width: 30%;
+        margin: auto;
+    }
+
+    .white {
+        width: 50%;
+    }
+}
+
+
+
